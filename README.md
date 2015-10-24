@@ -1,4 +1,4 @@
-hacking-pals
+pals-app
 ===
 App for educational instructors using Node.js, Express, and web sockets.
 
