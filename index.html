@@ -2,9 +2,31 @@
 <html>
 	<head>
 		<title>Pals app</title>
+
+
+    <!-- LINK TO JQUERY FILE -->
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+
+      <!-- BOOTSTRAP -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css"></script>
+
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
 	</head>
 	<body>
 		<div>Users online: <span id="userCount"></span></div>
+
+		<script>
+			var host = location.origin.replace(/^http/, 'ws');
+			var ws = new WebSocket(host);
+
+			ws.onmessage = function (event) {
+	  			obj = JSON.parse(event.data);
+	  			$('#userCount').html(obj.users);
+	  		}
+		</script>
+
 	</body>
 </html>
