@@ -1,4 +1,4 @@
-# hackingedu-pals
+hackingedu-pals
 ===
 HackingEdu 2015 project using Node.js, Express, and web sockets.
 
