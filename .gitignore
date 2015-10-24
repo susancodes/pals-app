@@ -2,3 +2,4 @@ env
 *.pyc
 *.sh
 *.DS_Store*
+npm-debug.log
