@@ -1,6 +1,6 @@
-hackingedu-pals
+hacking-pals
 ===
-HackingEdu 2015 project using Node.js, Express, and web sockets.
+App for educational instructors using Node.js, Express, and web sockets.
 
 <img src="mockup.jpg">
 
