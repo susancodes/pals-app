@@ -2,6 +2,8 @@ pals-app
 ===
 App for educational instructors using Node.js, Express, and web sockets.
 
+App currently in progress.
+
 <img src="mockup.jpg">
 
 ##Install on your machine
