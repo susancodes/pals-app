@@ -45,6 +45,13 @@ def target_product():
 
 
 
+@app.route('/chegg')
+def chegg_product():
+	"""using chegg API"""
+
+	
+
+
 if __name__ == "__main__":
 
 	# connect_to_db(app)
